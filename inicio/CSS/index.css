@@ -50,7 +50,11 @@ header{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	background-color: #e49d22
+	background-color: #e49d22;
+    -webkit-transition: all 2s linear 0s;
+    -moz-transition: all 2s linear 0s;
+    -ms-transition: all 2s linear 0s;
+    -o-transition: all 2s linear 0s
 }
 	
 
@@ -120,9 +124,21 @@ section input:hover{
 	padding: 40px;
 	border:25px;
 	border-radius: 10px;
-	
+	 -webkit-transform: translateX(400px) translateY(0px);
+  -moz-transform: translateX(400px) translateY(0px);
+  -o-transform: translateX(400px) translateY(0px);
+  -ms-transform: translateX(400px) translateY(0px);
+}
+
+.aside{
+  -webkit-transition: transform 2s ease-in-out 100ms;
+  -moz-transition: transform 2s ease-in-out 100ms;
+   -o-transition: transform 2s ease-in-out 100ms;
+  -ms-transition: transform 2s ease-in-out 100ms;
 
 }
+
+
 aside input:hover{
 	background-color:#F3FA00;
 }
@@ -139,12 +155,17 @@ aside input:hover{
 	flex-direction: row;
 	justify-content: space-around;
 	background-color: #FFB600;
+    color: #FFFFFF;
 	padding: 40px;
 	margin: 4px;
 	border: 25px;
 	border-radius: 10px;
 	font-size: 22px;
 	box-sizing: border-box;
+    -webkit-transition: all 2s linear 0s;
+    -moz-transition: all 2s linear 0s;
+    -ms-transition: all 2s linear 0s;
+    -o-transition: all 2s linear 0s;
 }
 
 @media screen and (max-width: 412px ){

@@ -14,12 +14,30 @@ body{
     font-family: 'Poppins';
 
 }
-img{
-	height: 200px;
+
+.img-container img {
+  -webkit-transition:all .7s ease;
+  -moz-transition:all .7s ease;
+  -o-transition:all .7s ease;
+  -ms-transition:all .7s ease;
+  width:100%;
 }
-.img-container{
-	text-align: center;
+.img-container:hover img {
+  -webkit-transform:scale(1.5);
+  -moz-transform:scale(1.5);
+  -ms-transform:scale(1.5);
+  -o-transform:scale(1.5);
+   transform:scale(1.5);
 }
+.img-container {
+   height: 250px;
+   width: 250px;
+   display:block;
+   margin:auto;
+   overflow:hidden;
+ 
+}
+ 
 footer{
 	display: flex;
 	flex-direction: row;
@@ -42,19 +60,33 @@ header{
 
 @media screen and (max-width: 280px){
 	header{
-   padding-left: 1px;
+   padding-left: 2px;
 	}
 	footer{
     padding-right: 60px;
     max-width:  4000px;
     display:flex;
-    display: inline-block; margin-right: 20%;
+    display: inline-block; margin-right: 50%;
     width: 200px;
-    }
+}
+}
+
+@media screen and (max-width: 360px){
 	img{
 		height: 100px;
-		width: 200px;
-	}
-    
+		width: 100px;
+        display:block;
+        margin:auto;
+        overflow:hidden;
 }
-	  
+}
+
+@media screen and (max-width: 280px){
+   img {
+    max-width: 200px;
+    max-height: 200px;
+    min-height: 250px;
+    display: inline-block; margin-right: 50%;
+
+  }
+}

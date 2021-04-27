@@ -5,10 +5,11 @@
 body{
   background-color:#3E5A66;
 }
+
 .nav{
     background-color: #e49d22;
     margin: 0 0;
-    height: 120px;
+    height: 115px;
     text-align: center;
     border-radius: 50px;
     margin-top: 20px;
@@ -17,6 +18,9 @@ body{
 .title{
   margin: 0 auto;
   
+}
+.text-container{
+  text-align: center;
 }
 .input-container{
   margin-top: 50px;
@@ -27,6 +31,25 @@ body{
 }
 .inputs{
   color: #000;
+}
+.logo{
+  height: 110px;
+  margin-left: 33px;
+}
+.logo:hover{
+  transform: rotate(180deg);
+}
+.codigo{
+  display: none;
+}
+nav:hover{
+  transform: rotate(-10deg);
+}
+nav:hover .codigo{
+  display: block;
+}
+nav:hover .advice{
+  display: none;
 }
 
 .recover-your-account{
