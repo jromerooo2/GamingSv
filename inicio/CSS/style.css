@@ -22,6 +22,11 @@ body{
   color: #fff;
   align-items: center;
 }
+.Gaming{
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+}
 .card{
   position: relative;
   background-color: #fff;

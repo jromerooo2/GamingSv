@@ -129,7 +129,11 @@ section input:hover{
   -o-transform: translateX(400px) translateY(0px);
   -ms-transform: translateX(400px) translateY(0px);
 }
-
+.Gaming{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+  }
 .aside{
   -webkit-transition: transform 2s ease-in-out 100ms;
   -moz-transition: transform 2s ease-in-out 100ms;
